@@ -1,0 +1,23 @@
+.box {
+    margin: auto auto;
+    height: 700px;
+    padding: 5px 100px;
+    background-color: #c5d9e4;
+}
+
+.decoration {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 750;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    color: navy;
+}
+
+.de-table {
+    display: flex;
+}
+
+.show-add {
+    margin-left: 50px;
+}

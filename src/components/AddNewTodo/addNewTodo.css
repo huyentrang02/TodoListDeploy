@@ -1,0 +1,94 @@
+.add-new-todo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 300px;
+    height: 280px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+#level {
+    background-color: rgba(0, 0, 139, 0.062);
+    border-radius: 5px;
+    width: 250px;
+}
+
+.close {
+    height: 22px;
+    width: 25px;
+    background-color: rgba(0, 0, 139, 0.192);
+    text-align: center;
+    border-radius: 3px;
+}
+
+.two-span {
+    display: flex;
+    flex-direction: row;
+}
+
+.edit-text {
+    color: darkblue;
+    font-size: 20px;
+    font-weight: 650;
+}
+
+.add-new-todo label {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.add-new-todo input {
+    height: 30px;
+    border: 1px solid black;
+    width: 85%;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.add-new-todo select {
+    height: 30px;
+    border: 1px solid black;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.add-new-todo .btn-group {
+    margin-top: 20px;
+}
+
+.add-new-todo .btn-group button {
+    height: 30px;
+    padding: 0px 15px;
+    background-color: rgba(0, 0, 139, 0.911) !important;
+    font-size: 15px;
+    font-weight: 550;
+    margin-right: 20px !important;
+}
+
+.add-new-todo span {
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.alert {
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 90px 95px;
+    padding: 15px 10px !important;
+}
+
+.ahover {
+    color: white !important;
+}

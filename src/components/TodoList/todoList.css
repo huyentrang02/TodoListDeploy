@@ -1,0 +1,158 @@
+.to-do-list {
+    flex: 1;
+}
+.to-do-list table {
+    font-family: arial, sans-serif;
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.to-do-list td,
+.to-do-list th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+.btn-add {
+    border: none;
+    background-color: #2b60f2;
+    border-radius: 3px;
+    color: white;
+    height: 40px;
+    padding: 0px 55px;
+    margin-right: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-group button {
+    border: none;
+    color: white;
+    border-radius: 10px;
+    height: 25px;
+    padding: 0px 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.btn-group button:first-child {
+    background-color: rgba(0, 68, 255, 0.432);
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.btn-group button:last-child {
+    background-color: rgba(0, 68, 255, 0.267);
+    border-radius: 5px;
+}
+
+.danger {
+    color: red;
+    font-weight: 550;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.warning {
+    color: mediumvioletred;
+    font-weight: 550;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.primary {
+    color: blue;
+    font-weight: 550;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.success {
+    color: green;
+    font-weight: 550;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#sort {
+    background-color: #7b9cf763;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-bottom: 40px;
+}
+
+#btn-sort {
+    color: white;
+    background-color: #2b60f2;
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    font-weight: 550;
+    cursor: pointer;
+    margin-right: 50px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.filter {
+    background-color: rgba(205, 92, 92, 0.507);
+    margin-right: 12px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.w-filter {
+    margin-top: 20px;
+    display: flex;
+}
+
+.search {
+    height: 40px;
+    width: 350px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border: none;
+    background-color: #7b9cf763;
+    text-decoration-line: none;
+}
+
+.btn-search {
+    font-weight: 550;
+    background-color: #2b60f2;
+    height: 40px;
+    width: 170px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+#filterLevel {
+    height: 40px;
+    width: 200px;
+}
+
+.btn-add:hover,
+.btn-search:hover,
+#btn-sort:hover {
+    background-color: blue;
+    color: navy;
+}
