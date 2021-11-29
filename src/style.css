@@ -1,6 +1,6 @@
 .box {
     margin: auto auto;
-    height: 700px;
+    height: 100vh;
     padding: 5px 100px;
     background-color: #c5d9e4;
 }
